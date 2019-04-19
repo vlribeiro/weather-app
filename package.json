@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports",
+    "start": "yarn build | node ./dist/server.js"
   },
   "devDependencies": {
     "@types/express": "^4.16.1",
