@@ -1,0 +1,43 @@
+html,body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 52rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#viewport {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+}
+
+header {
+    padding: 1rem;
+    background: #449;
+    color: #eee;
+    margin: 0 0 2rem 0;
+}
+
+header h1 {
+    color: #eee;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+header a {
+    color: #eee;
+}
+
+footer {
+    padding: 1rem;
+    background: #449;
+    color: #eee;
+    margin: 2rem 0 0 0;
+}
