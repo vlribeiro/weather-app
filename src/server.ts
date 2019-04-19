@@ -3,5 +3,6 @@ import dotenv from 'dotenv'
 import app from './app'
 
 dotenv.config()
+const port = process.env.PORT || 3000
 
-app.listen(3000, (): void => console.log('Listening on port 3000'))
+app.listen(port, (): void => console.log(`Listening on port ${port}`))
